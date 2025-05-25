@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nurture Together Pregnancy Group</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #4a7c59; /* calming green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    color: #4a7c59;
+  }
+  .intro {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  .section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  footer {
+    background: #d6cfc7; /* soft sand color */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    color: #4a4a4a;
+  }
+  button.cta {
+    background-color: #4a7c59;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button.cta:hover {
+    background-color: #3b6247;
+  }
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nurture Together Pregnancy Group</h1>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#support">Support Services</a>
+    <a href="#join">Join Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p class="intro">
+      Nurture Together Pregnancy Group is a community focused on mental health peer support during pregnancy and early motherhood. We provide a safe space where expecting and new mothers can connect, share experiences, and find encouragement.
+    </p>
+  </section>
+
+  <section id="support" class="section">
+    <h2>Support Services</h2>
+    <ul>
+      <li>Peer-led mental health support groups</li>
+      <li>One-on-one peer mentoring</li>
+      <li>Workshops on stress management and wellbeing</li>
+      <li>Resource sharing and referrals</li>
+    </ul>
+  </section>
+
+  <section id="join" class="section">
+    <h2>Join Us</h2>
+    <p>Become a part of our supportive community. Whether you’re pregnant, a new mom, or a peer supporter, we welcome you!</p>
+    <button class="cta" onclick="alert('Thank you for your interest! Please contact us to join.')">Get Involved</button>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: nurturetogether@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Follow us on social media: @NurtureTogether</p>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 Nurture Together Pregnancy Group. All rights reserved.
+</footer>
+
+</body>
+</html>
